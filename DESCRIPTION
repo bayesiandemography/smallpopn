@@ -1,0 +1,29 @@
+Package: smallpopn
+Title: Functions used in paper Randomness and the Demography of Small Populations
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "John",
+           family = "Bryant",
+           role = c("aut", "cre"),
+           email = "john@bayesiandemography.com",
+           comment = c(ORCID = "0000-0002-8010-9748"))
+Description: Using microsimulation to study the
+   random variation in small populations.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
+Depends:
+    R (>= 3.5.0)
+Imports:
+    Rcpp
+Suggests: 
+    dembase,
+    knitr,
+    rmarkdown,
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+VignetteBuilder: knitr
+LinkingTo: 
+    Rcpp
