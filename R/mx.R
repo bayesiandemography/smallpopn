@@ -1,7 +1,7 @@
 
 #' Mortality rates mx from the West model life table
 #'
-#' Mortality rates mx, by age, sex, Lexis triangle, and life table
+#' Mortality rates mx, by age, Lexis triangle, sex, and life table
 #' level, for the West model life table.
 #'
 #' For a description of life tables, and West model life tables,
@@ -15,7 +15,7 @@
 #'
 #' @seealso \code{\link{Lx}}
 #' 
-#' @source The values were obtained from the
+#' @source Modified from values obtained from the
 #' \code{\link[demogR]{cdmltw}} function
 #' in package \code{demogR}.
 "mx"

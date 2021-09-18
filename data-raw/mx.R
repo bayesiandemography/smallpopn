@@ -66,7 +66,7 @@ mx_05plus <- mx %>%
 
 mx <- bind_rows(mx_04, mx_05plus) %>%
     mutate(age = factor(age, levels = labels_cleaned)) %>%
-    dtabs(value ~ age + sex + triangle + level)
+    dtabs(value ~ age + triangle + sex + level)
 
 save(mx,
      file = "data/mx.rda")
