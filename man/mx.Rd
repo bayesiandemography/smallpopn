@@ -8,7 +8,7 @@
 An object of class \code{array} of dimension 20 x 2 x 2 x 25.
 }
 \source{
-The values were obtained from the
+Modified from values obtained from the
 \code{\link[demogR]{cdmltw}} function
 in package \code{demogR}.
 }
@@ -16,7 +16,7 @@ in package \code{demogR}.
 mx
 }
 \description{
-Mortality rates mx, by age, sex, Lexis triangle, and life table
+Mortality rates mx, by age, Lexis triangle, sex, and life table
 level, for the West model life table.
 }
 \details{
